@@ -15,6 +15,7 @@ class DatabaseSeeder extends Seeder
             UserSeeder::class,
             CatalogoAlineamientoSeeder::class,
             CatalogoRazaSeeder::class,
+            CatalogoSubrazaSeeder::class,
             CatalogoTransfondoSeeder::class,
             CatalogoHabilidadSeeder::class,
             CatalogoObjetoSeeder::class,
@@ -24,6 +25,12 @@ class DatabaseSeeder extends Seeder
             CompetenciaHabilidadSeeder::class,
             InventarioSeeder::class,
             ConjuroConocidoSeeder::class,
+            CatalogoCondicionSeeder::class,
+            CatalogoClaseSeeder::class,
+            CatalogoSubclaseSeeder::class,
+            CatalogoRasgoSeeder::class,
+            CatalogoIdiomaSeeder::class,
+            CatalogoProficienciaEquipoSeeder::class,
         ]);
     }
 }

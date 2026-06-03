@@ -10,8 +10,8 @@ services:
     environment:
       MARIADB_ROOT_PASSWORD: ${DB_ROOT_PASSWORD:-root}
       MARIADB_DATABASE: ${DB_DATABASE:-DYD}
-      MARIADB_USER: ${DB_USERNAME:-laravel}
-      MARIADB_PASSWORD: ${DB_PASSWORD:-laravel}
+      MARIADB_USER: ${DB_USERNAME:-root}
+      MARIADB_PASSWORD: ${DB_PASSWORD:-root}
       MARIADB_COLLATION: utf8mb4_unicode_ci
       MARIADB_CHARACTER_SET_SERVER: utf8mb4
     ports:
